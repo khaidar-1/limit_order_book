@@ -55,7 +55,7 @@ public class order
 			this.order_list.move_tail(this);
 			this.time = tstamp;
 		}
-		order_list.setVolume(order_list.getVolume()-(this.target_qtity-updated_qtity));
+		order_list.set_volume(order_list.get_volume()-(this.target_qtity-updated_qtity));
 		this.target_qtity = updated_qtity;
 	}
 	

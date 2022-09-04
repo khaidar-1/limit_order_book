@@ -125,11 +125,11 @@ public class orderlist implements Iterable<order>, Iterator<order>{
 		this.tail_order = tail_order;
 	}
 
-	public Integer getVolume() {
+	public Integer get_Volume() {
 		return volume;
 	}
 
-	public void setVolume(Integer volume) {
+	public void set_Volume(Integer volume) {
 		this.volume = volume;
 	}
 	
